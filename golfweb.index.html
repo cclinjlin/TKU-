@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/themes/jerrytheme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<div>Content for New div Tag Goes Here</div>
+<body>
+
+<div data-role="page" id="homepage">
+  <div data-role="header" data-theme="a">
+	<a href="#homepage" data-role="button" data-icon="home" data-theme="e">首页</a>
+    <h1>HOW MUCH DO YOU KNOW ABOUT GOLF?</h1>
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="f" align="middle">
+    <img src="image/home.jpg" width="500" height="" alt=""/>
+	</div>	
+<p>高爾夫，又稱高球，高爾夫球，歌爾夫球，高而富球，俗稱小白球，是一種室外體育運動。個人或團體球員以高爾夫球桿將一顆小球打進球洞，使用杆數較少者獲勝。大部份的比賽有9洞或18洞。
+  目前世界上較為知名的個人比賽有：英國公開賽、英國業餘高爾夫球錦標賽、美國公開賽、美國業餘高爾夫球錦標賽、美國名人賽和美國職業高爾夫球協會錦標賽。最有名的團體比賽有世界盃賽、萊德杯歐美對抗賽和沃克杯美英愛爾蘭系列賽。高爾夫球將於2016年裡約熱內盧奧運重新被列為奧運比賽專案。
+  英國公開賽、美國公開賽、美國名人賽和美國職業高爾夫球協會錦標賽是高爾夫球界的四大大滿貫賽事[3]。
+  一般認為現代高爾夫球起源於15世紀的蘇格蘭[4]，今日的高爾夫球18洞制度亦由蘇格蘭制定，當地亦有全球最歷史悠久的高球會，被視作蘇格蘭國粹。</p>
+  </div>
+
+  <div data-role="footer">
+	  <div data-role="navbar">
+      <ul>
+		<li><a href="#twcourses" data-icon="info" data-theme="d">Taiwan's courses</a></li>  
+        <li><a href="#course" data-icon="info" data-theme="d">GolfCourses</a></li>
+        <li><a href="#rule" data-icon="info" data-theme="d">Score</a></li>
+        <li><a href="#club" data-icon="info" data-theme="d">GolfClubs</a></li>
+		<li><a href="#suggestion" data-icon="info" data-theme="d">suggestion</a></li>   
+      </ul>
+    </div>
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+
+	
+	
+<div data-role="page" id="suggestion">
+  <div data-role="header">
+  <a href="#homepage" data-role="button" data-icon="home">首页</a> 	  
+  <h1>建議與回饋</h1>
+  </div>
+  <div data-role="content">
+    <form method="post" action="demoform.asp">
+	  <div data-role="fieldcontain">
+        <label for="fullname">姓名：</label>
+        <input type="text" name="fullname" id="fullname">       
+        <label for="bday">生日：</label>
+        <input type="date" name="bday" id="bday">
+        <label for="email">信箱：</label>
+        <input type="email" name="email" id="email" placeholder="您的邮箱地址..">
+      </div>	
+      <fieldset data-role="controlgroup">
+      <legend>請選擇性別：</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">	
+      </fieldset>
+	  <fieldset data-role="controlgroup">
+      <legend>請問高爾夫球經驗：</legend>
+        <label for="beginning">初學</label>
+        <input type="radio" name="experience" id="beginning" value="beginning">
+		<label for="onem">1個月</label>
+        <input type="radio" name="experience" id="onem" value="onemonth">  
+		<label for="threem">3個月</label>
+        <input type="radio" name="experience" id="threem" value="threemonth">  
+		<label for="sixm">6個月</label>
+        <input type="radio" name="experience" id="sixm" value="sixmonth">  
+        <label for="oney">1年</label>
+        <input type="radio" name="experience" id="oney" value="oneyear">	
+		<label for="threey">3年</label>
+        <input type="radio" name="experience" id="threey" value="threeyear">  
+		<label for="fivey">5年</label>
+        <input type="radio" name="experience" id="fivey" value="fiveyear">  
+		<label for="teny">10年</label>
+        <input type="radio" name="experience" id="teny" value="tenyear">
+		<label for="pro">職業</label>
+        <input type="radio" name="experience" id="pro" value="professional">  
+      </fieldset>	
+      <fieldset data-role="controlgroup">
+      <legend>請問您的職業：</legend>
+        <label for="ceo">民意代表、高階主管及總執行長</label>
+        <input type="checkbox" name="experience" id="ceo" value="ceo">
+		<label for="exemanager">行政及商業經理人員</label>
+        <input type="checkbox" name="experience" id="exemanager" value="executivemanager">  
+		<label for="manumanager">生產及專業服務經理人員</label>
+        <input type="checkbox" name="experience" id="manumanager" value="manufacturemanager">  
+		<label for="retmanager">餐旅、零售及其他場所服務經理人員</label>
+        <input type="checkbox" name="experience" id="retmanager" value="retailmanager">  
+        <label for="opro">專業人員</label>
+        <input type="checkbox" name="experience" id="opro" value="oprofessional">	
+		<label for="technicain">技術員及助理專業人員</label>
+        <input type="checkbox" name="experience" id="technicain" value="technicain">  
+		<label for="ass">事務支援人員</label>
+        <input type="checkbox" name="experience" id="ass" value="affairsupportstaff">  
+		<label for="ss">服務及銷售工作人員</label>
+        <input type="checkbox" name="experience" id="ss" value="servicestaff">
+		<label for="afah">農、林、漁、牧業生產人員</label>
+        <input type="checkbox" name="experience" id="afah" value="AFAH">  
+		<label for="skill">技藝有關工作人員</label>
+        <input type="checkbox" name="experience" id="skill" value="skillart">  
+		<label for="mechanic">機械設備操作及組裝人員</label>
+        <input type="checkbox" name="experience" id="mechanic" value="mechanic">  
+		<label for="basiclabor">基層技術工及勞力工</label>
+        <input type="checkbox" name="experience" id="basiclabor" value="basiclabor">  
+		<label for="military">軍人</label>
+        <input type="checkbox" name="experience" id="military" value="military">    
+      </fieldset>
+	  <div data-role="fieldcontain">
+		<label for="info">能否給予我們回饋與建議:</label><br>
+		  <textarea name="addinfo" id="info" placeholder="thx for ur suggestion!"></textarea>
+      </div>	
+      <input type="submit" data-inline="true" value="提交">
+    </form>
+  </div>	
+</div>
+	
+	
+	
+<div data-role="page" id="twcourses">
+  <div data-role="header">
+  <a href="#homepage" data-role="button" data-icon="home">首页</a>	  
+    <h1>台灣球場</h1>
+  </div>
+
+  <div data-role="content">
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>新北市</h3>
+			<div data-role="collapsible-set">
+				<div data-role="collapsible">
+					<h3>淡水</h3>
+						<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>臺灣高爾夫俱樂部</h3>
+								<p>地址： 251新北市淡水區中正路一段6巷32號<br>電話： 02 2623 0114</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>新淡水高爾夫球場</h3>
+								<p>地址： 251新北市淡水區八勢路300號<br>
+									開放時間： <br>
+									星期日	05:00–19:00<br>
+									星期一	05:30–19:00<br>
+									星期二	05:30–19:00<br>
+									星期三	05:30–19:00<br>
+									星期四	05:30–19:00<br>
+									星期五	05:30–19:00<br>
+									星期六	05:30–19:00<br>
+									電話： 02 2809 2466
+									</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>大屯高爾夫球場</h3>
+								<p>地址： 251新北市淡水區商工路309號<br>電話： 02 2621 3271</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>北投國華高爾夫俱樂部</h3>
+								<p>地址： 251新北市淡水區坪頂里23-1號<br>
+									開放時間： <br>
+									星期日	06:00–19:00<br>
+									星期一	06:00–19:00<br>
+									星期二	06:00–19:00<br>
+									星期三	06:00–19:00<br>
+									星期四	06:00–19:00<br>
+									星期五	06:00–19:00<br>
+									星期六	06:00–19:00<br>
+
+									電話： 02 8626 1281
+									</p>
+				            </div>
+			            </div>
+				</div>
+				<div data-role="collapsible">
+					<h3>林口</h3>
+						<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>美麗華高爾夫俱樂部</h3>
+								<p>地址： 244新北市林口區下福路9號<br>
+											開放時間： <br>
+											星期日	05:00–14:00<br>
+											星期一	05:00–14:00<br>
+											星期二	05:00–14:00<br>
+											星期三	05:00–14:00<br>
+											星期四	05:00–14:00<br>
+											星期五	05:00–14:00<br>
+											星期六	05:00–14:00<br>
+											電話： 02 2606 3456
+											</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>林口高爾夫俱樂部</h3>
+								<p>地址： 244新北市林口區後湖路50-1號<br>
+										開放時間： <br>
+										星期日	06:00–17:00<br>
+										星期一	06:00–17:00<br>
+										星期二	06:00–17:00<br>
+										星期三	06:00–17:00<br>
+										星期四	06:00–17:00<br>
+										星期五	06:00–17:00<br>
+										星期六	06:00–17:00<br>
+										電話： 02 2601 1211</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>幸福高爾夫俱樂部</h3>
+								<p>地址： 244新北市林口區下福71之2號<br>電話： 02 2606 2345</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>東華高爾夫俱樂部</h3>
+								<p>地址： 244新北市林口區東華路99號<br>電話： 02 2606 1790</p>
+				            </div>
+			            </div>
+				</div>	
+			</div>	
+      </div>
+      <div data-role="collapsible">
+        <h3>桃園市</h3>
+		  <div data-role="collapsible-set">
+			<div data-role="collapsible">
+				<h3>蘆洲</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>台北高爾夫俱樂部</h3>
+								<p>地址： 338桃園市蘆竹區赤塗崎34-1號<br>
+										開放時間： <br>
+										星期日	06:00–17:00<br>
+										星期一	06:00–17:00<br>
+										星期二	06:00–17:00<br>
+										星期三	06:00–17:00<br>
+										星期四	06:00–17:00<br>
+										星期五	06:00–17:00<br>
+										星期六	06:00–17:00<br>
+										建議電話： 03 324 1311</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>統帥高爾夫俱樂部</h3>
+								<p>地址： 338桃園市蘆竹區六福一路195巷1弄8號<br>開始營業時間：05:00<br>電話： 03 322 1786</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>第一高爾夫俱樂部</h3>
+								<p>地址： 338桃園市蘆竹區坑子村7鄰貓尾崎50號<br>電話： 03 324 5291</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>永漢高爾夫俱樂部</h3>
+								<p>地址： 33851桃園市蘆竹區南山北路一段300號<br>電話： 03 324 5711</p>
+				            </div>
+			            </div>
+			</div>
+			<div data-role="collapsible">
+				<h3>龜山</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>長庚高爾夫俱樂部</h3>
+								<p>地址： 333桃園市龜山區長庚球場路66號<br>電話： 03 329 6354</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>東方高爾夫俱樂部</h3>
+								<p>地址： 333桃園市龜山區東方球場路100號<br>
+									開放時間： <br>
+									星期日	24 小時營業<br>
+									星期一	24 小時營業<br>
+									星期二	24 小時營業<br>
+									星期三	24 小時營業<br>
+									星期四	24 小時營業<br>
+									星期五	24 小時營業<br>
+									星期六	24 小時營業<br>
+									電話： 03 350 0506</p>
+				            </div>
+			            </div>
+			</div>	
+			<div data-role="collapsible">
+				<h3>楊梅</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>楊梅高爾夫俱樂部</h3>
+								<p>地址： 326桃園市楊梅區崩坡73號<br>開始營業時間：06:00<br>電話： 03 478 0541</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>揚昇高爾夫鄉村俱樂部</h3>
+								<p>地址： 326桃園市楊梅區楊昇路256號<br>
+									開放時間： <br>
+									星期日	05:30–22:00<br>
+									星期一	05:30–22:00<br>
+									星期二	05:30–22:00<br>
+									星期三	05:30–22:00<br>
+									星期四	05:30–22:00<br>
+									星期五	05:30–22:00<br>
+									星期六	05:30–22:00<br>電話： 03 478 0099
+									</p>
+				            </div>
+			        </div>
+			</div>
+			<div data-role="collapsible">
+				<h3>龍潭</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>桃園高爾夫俱樂部</h3>
+								<p>地址： 325桃園市龍潭區悅華路100號<br>電話： 03 480 3388</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>龍潭高爾夫俱樂部</h3>
+									<p>地址： 325桃園市龍潭區民生路439巷130號<br>
+									開放時間： <br>
+									星期日	06:00–18:30<br>
+									星期一	06:00–18:30<br>
+									星期二	06:00–18:30<br>
+									星期三	06:00–18:30<br>
+									星期四	06:00–18:30<br>
+									星期五	06:00–18:30<br>
+									星期六	06:00–18:30<br>
+									電話： 03 499 5506</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>藍鷹高爾夫俱樂部</h3>
+								<p>地址： 325桃園市龍潭區南坑14號 <br>開始營業時間：05:00<br>電話： 03 471 8306</p>
+				            </div>
+			        </div>
+			</div>  
+			<div data-role="collapsible">
+				<h3>大溪</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>大溪高爾夫俱樂部</h3>
+								<p>地址： 335桃園市大溪區日新路168號<br>
+									開放時間： <br>
+									星期日	06:00–21:00<br>
+									星期一	06:00–21:00<br>
+									星期二	06:00–21:00<br>
+									星期三	06:00–21:00<br>
+									星期四	06:00–21:00<br>
+									星期五	06:00–21:00<br>
+									星期六	06:00–21:00<br>
+									電話： 03 387 5699</p>
+							</div>
+			        </div>
+			</div>   
+		</div>
+      </div>
+      <div data-role="collapsible">
+        <h3>新竹縣</h3>
+		  <div data-role="collapsible-set">
+			<div data-role="collapsible">
+				<h3>湖口</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>長安高爾夫俱樂部</h3>
+								<p>地址： 303新竹縣湖口鄉北窩路376號<br>電話： 03 569 3458</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>再興高爾夫俱樂部</h3>
+								<p>地址： 303新竹縣湖口鄉再興路350號<br>
+									開放時間： <br>
+									星期日	05:00–18:00<br>
+									星期一	05:00–18:00<br>
+									星期二	05:00–18:00<br>
+									星期三	05:00–18:00<br>
+									星期四	05:00–18:00<br>
+									星期五	05:00–18:00<br>
+									星期六	05:00–18:00<br>
+									電話： 03 569 0999</p>
+				            </div>
+			        </div>
+			</div>
+			<div data-role="collapsible">
+				<h3>關西</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>山溪地高爾夫俱樂部</h3>
+								<p>地址： 306新竹縣關西鎮玉山里2鄰13號<br>電話： 03 547 6288</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>立益高爾夫俱樂部</h3>
+								<p>地址： 306新竹縣關西鎮東山里湖肚55號<br>電話： 03 587 5111</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>老爺關西高爾夫俱樂部</h3>
+								<p>地址： 306新竹縣關西鎮赤柯山1號<br>
+									開放時間： <br>
+									星期日	05:00–18:00<br>
+									星期一	05:00–18:00<br>
+									星期二	05:00–18:00<br>
+									星期三	05:00–18:00<br>
+									星期四	05:00–18:00<br>
+									星期五	05:00–18:00<br>
+									星期六	05:00–18:00<br>
+									電話： 03 547 6331</p>
+				            </div>
+							<div data-role="collapsible">
+								<h3>旭陽高爾夫俱樂部</h3>
+								<p>地址： 306新竹縣關西鎮新城段100號<br>
+									開放時間： <br>
+									星期日	05:30–18:30<br>
+									星期一	05:30–18:30<br>
+									星期二	05:30–18:30<br>
+									星期三	05:30–18:30<br>
+									星期四	05:30–18:30<br>
+									星期五	05:30–18:30<br>
+									星期六	05:30–18:30<br>
+									電話： 03 547 6569</p>
+				            </div>
+			            </div>
+			</div>	
+			<div data-role="collapsible">
+				<h3>寶山</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>東方之星高爾夫俱樂部(原啟寶球場)</h3>
+								<p>新竹縣寶山鄉深井村深井一路98號<br>03-5762200 ext.205, 206<br>03-5762023<br>gh.golf.tw@gmail.com</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>寶山高爾夫俱樂部</h3>
+								<p>地址： 308新竹縣寶山鄉寶新路二段465號<br>開始營業時間：05:00<br>電話： 03 576 2888</p>
+				            </div>
+			        </div>
+			</div>
+			<div data-role="collapsible">
+				<h3>新豐</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>新竹高爾夫俱樂部</h3>
+								<p>地址： 304新竹縣新豐鄉坑子口104號<br>電話： 03 559 6141</p>
+							</div>
+			        </div>
+			</div>   
+		  </div>
+      </div>
+      <div data-role="collapsible">
+        <h3>台中市</h3>
+		  <div data-role="collapsible-set">
+			<div data-role="collapsible">
+				<h3>北屯</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>台中國際高爾夫球場</h3>
+								<p>地址： 406台中市北屯區北坑巷21-8號<br>電話： 04 2239 1172</p>
+							</div>
+			        </div>
+			</div>
+			<div data-role="collapsible">
+				<h3>大雅</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>台中高爾夫球場</h3>
+								<p>地址： 428台中市大雅區通山路46號<br>開始營業時間：04:30<br>電話： 04 2566 5130</p>
+							</div>
+			        </div>
+			</div>	
+			<div data-role="collapsible">
+				<h3>豐原</h3>
+					<div data-role="collapsible-set">
+							<div data-role="collapsible">
+								<h3>豐原高爾夫俱樂部</h3>
+								<p>地址： 420台中市豐原區水源路坪頂巷23號<br>電話： 04 2522 2835</p>
+							</div>
+							<div data-role="collapsible">
+								<h3>清泉崗高爾夫俱樂部</h3>
+								<p>地址： 436台中市清水區和睦路二段305號<br>
+										開放時間： <br>
+										星期日	05:30–16:00<br>
+										星期一	05:30–16:00<br>
+										星期二	05:30–16:00<br>
+										星期三	05:30–16:00<br>
+										星期四	05:30–16:00<br>
+										星期五	05:30–16:00<br>
+										星期六	05:30–16:00<br>
+										電話： 04 2620 0134</p>
+				            </div>
+			        </div>
+			</div>
+		  </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+	
+	
+<div data-role="page" id="course">
+  <div data-role="header">
+	<a href="#homepage" data-role="button" data-icon="home">首页</a>  
+    <h1>高爾夫球場</h1>
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="d" align="middle">
+    <img src="image/course.png" width="200" height="" alt=""/> </div>	  
+    <p>高爾夫球場是由許多的球洞組成，每一個球洞都有發球檯，發球檯前會有二個標誌說明發球檯的範圍，此外還有球道、長草、其他障礙、在球洞附近的果嶺、球洞及標示球洞位置的旗子。
+高爾夫球場長草的程度會影響比賽的難度，在果嶺附近的草會特別養護，以便球可以在草地上滾動。有些球洞可以從發球檯直接看到球洞，但有些則會設計為左彎或是右彎，類似狗的腿，因此稱為「狗腿洞」，有些球洞甚至在中間會有二次的彎曲，稱為「雙狗腿洞」。
+標準的高爾夫球場會有18個球洞，不過9個球洞的球場也很常見，18個球洞可以用9個球洞重複二次來達到[5][6]。
+早期的蘇格蘭高爾夫球場主要會在有土壤及草的海邊沙地進行[7]。世界第一座高爾夫球場位於蘇格蘭聖安德魯斯成立於1452年。美國第一個18洞的球場是在1892年成立，是在伊利諾州唐納斯格羅夫的綿羊牧場內，這個球場仍可使用[8]。
+高爾夫各球洞因地形變化而出現不等的距離，通常將此不等的距離分成：長，中，短三種。十八個球洞中，長，短距離的球洞各有四個，中等距離的球洞有十個，採混合式排列，一個球場大部分平均會分布水池（下水罰杆一桿），界外球OB（out of bounds 罰杆一桿），OB線旁會豎立白色木樁，球洞部份可分為長草區、球道區、沙坑等，各個球場有自訂另行規則。
+球場的球洞分部大部分為有：4個三桿洞，10個四桿洞，4個五桿洞，球桿的標準為不超過14枝球桿為上限，一般球友多會使用一枝開球木桿，兩支球道木桿，九支鐵桿，一枝推桿以及一枝特殊用途的球桿。
+不同距離的標準桿數：431米以上為5桿，430.9米至229.1米為4桿，229米以下為3桿，球場標準桿的設定，依據球道的整體距離與分配做設定，通常是18洞72桿，偶爾也會有70桿或71桿的球場。高爾夫的職業比賽中，通常一場比賽要比四個回合，女子組通常是三個回合。
+<br>果嶺（英語：putting green）<br>
+		是green的音譯。果嶺的品質並不是相同的。一般來說，最好的果嶺都是得到很好養護，使得球可以很平滑的貼著切割過的草坪上滾動。高爾夫愛好者一般把好的果嶺描述為faster（快的），輕輕的一擊球就可以在上面滾動很遠。相對的，如果球在上面滾動相當的距離需要很大的力氣去擊球，這樣的果嶺稱為slow（慢的）（視果嶺的草種以及長短，生長方向而決定果嶺的快慢）由於果嶺的地形高低起伏會讓打者感覺其困難度。
+測定果嶺球速時，先在果嶺上選定3m×3m之區域，再將球置於球速測定器（stimp meter）凹槽中確定球是否會滾動。再測定是否受坡度影響，如受坡度影響則測上坡滾動距離（Su）及下坡滾動距離（Sd），測定之果嶺球速（Green speed adjusted for slope effect）=2×（Su×Sd）/（Su＋Sd）。一般果嶺都有一定的坡度，只是坡度大小存在差異。</p>
+	  <p>通常设9洞、18洞、27洞、36洞等几种，每洞距离约100-600码（90米-540米），球洞直径10厘米，深约10.5厘米。标准高尔夫球场长约5940-6400米左右，宽度不定，比赛从1号洞开始依次打完18洞，称为一场球。比赛胜负取决各选手击球入洞总杆数。每洞球场均由开球台（Tee Grand）、球道（Fair Way）、果岭（Green）加上砂坑（Bunker）及水塘等障碍物组成。果岭上有一球道终点－球洞(Hole)，球洞上插有一支旗杆(Pin)，球道两侧为长草及林区（Rough）。</p>
+	  <b><font size="5" color="#BE2225">3洞(3-hole) ≠ 第三洞(hole 3) ≠ 三桿洞(par3)<br>
+		  X洞是指打一輪有X洞 ; 第Y洞是指共N洞裡的第Y洞 ; par Z 是指某洞標準桿為Z桿</font></b>	<br><br>
+	  
+	  <font size="4">通常分為：</font>
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#threehole">3-hole</a></li>
+      <li><a href="#sixhole">6-hole</a></li>
+      <li><a href="#ninehole">9-hole</a></li>
+	  <li><a href="#eighteenhole">18-hole</a></li>
+	  <li><a href="#twentysevenhole">27-hole</a></li>
+	  <li><a href="#thirtysixhole">36-hole</a></li>	
+    </ul>
+	  
+  </div>
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+	
+	
+<div data-role="page" id="threehole">
+  <div data-role="header">
+	<a data-role="button" data-icon="back" data-rel="back">back</a>  
+    <h1>三洞</h1> 
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/threehole.jpg" width="200" height="" alt=""/> </div>	  
+	  <p>三桿洞通常是給小孩或初學者打，每洞皆為par3的標準桿。我本人是都在國外網站上看到，台灣好像沒有三桿洞球場。<br>此為參考連結：<a href="https://www.richvalleygolf.net/golf/3-hole-beginners-course">https://www.richvalleygolf.net/golf/3-hole-be</a></p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+<div data-role="page" id="sixhole">
+  <div data-role="header">
+	<a data-role="button" data-icon="back" data-rel="back">back</a>  
+    <h1>六洞</h1> 
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/sixhole.png" width="400" height="" alt=""/> </div>	  
+	  <p>六桿洞通常也是給小孩或初學者打，如上圖，只有6個洞，每洞皆為par3的標準桿。我本也都是在國外網站上看到，台灣好像沒有六桿洞球場。但六洞有正規比賽，譬如：聯合認證的珀斯世界超級6洞賽<br>此為參考連結：<a href="https://www.richvalleygolf.net/golf/3-hole-beginners-course">https://www.richvalleygolf.net/golf/3-hole-be</a></p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 		
+	
+<div data-role="page" id="ninehole">
+  <div data-role="header">
+	<a data-role="button" data-icon="back" data-rel="back">back</a>  
+    <h1>九洞</h1> 
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/9hole.jpg" width="500" height="" alt=""/> </div>	  
+	  <p>九洞球場，如上圖，只有9個洞，通常也是給初學者在打，本人打過台灣的九洞，台灣習慣俗稱「短九洞」，因為台灣的九洞球場多數皆為par3的短桿洞;而國外九洞會有超過三桿的長洞(par4、par5)</p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+<div data-role="page" id="eighteenhole">
+  <div data-role="header">
+	<a data-role="button" data-icon="back" data-rel="back">back</a>  
+    <h1>十八洞</h1> 
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/18hole.jpg" width="450" height="" alt=""/> </div>	  
+	  <p>一般球場是由18個球洞所組成。它區分為前九洞（OUT COURSE）與後九洞（IN COURSE）。所謂球洞包括發球台（TEE GROUND）；球道（FAIR-WAY）於果嶺（GREEN）。一洞比賽的完成即是由發球台開始發球，擲到將球打入果嶺中的球洞內為止。在這段過程中所使用的揮桿次數（包括果嶺上的推桿），就是這一洞的成績。<br>
+
+18動的球場通常由4個短洞（PAR 3）4個長洞（PAR 5）及10個中距離的洞（PAR 4）所組成。因每個球洞的長度不同，所以訂有短洞（男250碼，女210碼以內）標準桿3桿，中距離洞（男251～470碼，女211～400碼）標準桿4桿，長距離（男471，女401碼以上）標準桿5桿的成績標準。<br>
+
+全世界球場的球道設計；球道距離及地形地物等並無完全相同的球場，所以高爾夫比賽無世界記錄，只有單一球場紀錄。
+
+</p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+<div data-role="page" id="twentysevenhole">
+  <div data-role="header">
+	<a data-role="button" data-icon="back" data-rel="back">back</a>  
+    <h1>二十七洞</h1> 
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/27hole.gif" width="365" height="" alt=""/> </div>	  
+	  <p>27洞的高爾夫球場，以3個9洞組合成3個18洞球場.  安東尼的Home Course含3個9洞Mountain, Valley, Lake, 3個18洞組合為 Lake-Mountain, Mountain-Valley, Valley-Lake.像本人在林口的台北球場打過，他就是18洞+9洞的球場。 </p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+<div data-role="page" id="thirtysixhole">
+  <div data-role="header">
+	<a data-role="button" data-icon="back" data-rel="back">back</a>  
+    <h1>三十六洞</h1> 
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/36hole.jpg" width="500" height="" alt=""/> </div>	  
+	  <p> 36洞球場有兩個標準場（洛杉磯Chino Hills, Los Serranos 南場和北場為例）。可能為9+9+9+9或18+18。有些渡假區球場含兩個標準場以上（加州棕櫚泉Palm Springs）。私人高爾夫球俱樂部，收取入會費和每月收費（南加州Covina , South Hills為例）。縣,市,擁有的高爾夫球場，被稱為Muni（或Municipal，如加州鑽石吧球場Diamond Bar）。其他類型的高爾夫球場由私人經營但開放給大眾（南加州工業市太平洋棕櫚度假村Industry Hills Pacific Palms）。 </p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+
+
+
+<div data-role="page" id="rule">
+  <div data-role="header">
+	<a href="#homepage" data-role="button" data-icon="home">首页</a>  
+    <h1>規則</h1>
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="b" align="middle">
+    <img src="image/rules.jpg" width="300" height="" alt=""/> </div>	  
+	  <p>標準桿</p><p>
+球洞會依標準桿來分類，標準桿是指球員根據設計應當完成的桿數。桿數中一定會包括發球的一桿及二個推桿，因此標準桿至少是三桿，但標準桿是四桿或五桿的球洞也很常見，甚至也有標準桿是六桿或七桿的球洞。發球以外的擊球以及推桿一般會在球道進行。例如一個有經驗的球員在標準桿四桿的球洞時，會希望在第一次擊球發球後，第二次擊球就可以將球擊到果嶺，再用二個推桿使球進洞，就可以平標準桿。若是擊球讓球上果嶺後，還留有二次推桿機會可以使球進洞，則稱為標準桿上果嶺（green in regulation），簡稱GIR</p>
+  </div>
+  <div class="ui-grid-b">
+     <div class="ui-block-a" style="border: 2px solid black;color:green" ><span>計分</span></div>
+     <div class="ui-block-b" style="border: 2px solid black;color:green" ><span>術語</span></div>
+     <div class="ui-block-c" style="border: 2px solid black;color:green" ><span>定義</span></div>
+     <div class="ui-block-a" style="border: 3px solid black;color:purple" ><span>-4</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:purple" ><span>Condor或Triple eagle（三鷹）</span></div>
+	 <div class="ui-block-c" style="border: 1px solid black;color:purple" ><span>少標準桿數四桿(事實上是不存在的)</span></div> 
+     <div class="ui-block-a" style="border: 3px solid black;color:darkgoldenrod"><span>-3</span></div>
+	 <div class="ui-block-b" style="border: 1px solid black;color:darkgoldenrod"><span>Albatross或Golden eagle或Double eagle（雙鷹）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:darkgoldenrod"><span>少標準桿數三桿</span></div> 
+	 <div class="ui-block-a" style="border: 3px solid black;color:purple"><span>-2</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:purple"><span>Eagle（老鷹）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:purple"><span>少標準桿數兩桿</span></div>
+	 <div class="ui-block-a" style="border: 3px solid black;color:darkgoldenrod"><span>-1</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:darkgoldenrod"><span>Birdie（小鳥）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:darkgoldenrod"><span>少標準桿數一桿</span></div>
+	 <div class="ui-block-a" style="border: 3px solid black;color:purple"><span>E</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:purple"><span>Par（標準桿）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:purple"><span>平標準桿數</span></div>
+	 <div class="ui-block-a" style="border: 3px solid black;color:darkgoldenrod"><span>+1</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:darkgoldenrod"><span>Bogey（柏忌）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:darkgoldenrod"><span>多標準桿數一桿</span></div> 
+	 <div class="ui-block-a" style="border: 3px solid black;color:purple"><span>+2</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:purple"><span>Double Bogey（雙柏忌）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:purple"><span>多標準桿數兩桿</span></div>
+	 <div class="ui-block-a" style="border: 3px solid black;color:darkgoldenrod"><span>+3</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:darkgoldenrod"><span>Triple Bogey（三柏忌）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:darkgoldenrod"><span>多標準桿數三桿</span></div>
+	 <div class="ui-block-a" style="border: 3px solid black;color:purple"><span>+4</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:purple"><span>Quadruple Bogey（四柏忌）</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:purple"><span>多標準桿數四桿</span></div> 
+   </div>	<br><br>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div>
+
+
+
+
+<div data-role="page" id="club">
+  <div data-role="header">
+	<a href="#homepage" data-role="button" data-icon="home">首页</a>  
+    <h1>高爾夫球桿</h1>
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/clubs.jpg" width="600" height="" alt=""/> </div>	  
+    <p>球桿（GOLF CLUB）依桿頭（CLUB HEAD）形狀的不同，可分為木桿（WOOD CLUB）與鐵桿（IRON CLUB）二大類
+
+從前木桿的桿頭是由柿木所造。近期由於科技的發達，桿頭及桿身改為金屬；碳纖維；航太金屬等材質所製，其功能為減少桿身重量，擴大甜蜜點，增加擊球距離等。
+
+鐵桿的桿頭是由特殊的鋼材或熟鐵等所製，其趕面較薄。因趕面的協度（LOFT）及桿身長度不同，而有長鐵桿（1-3號鐵桿）、中鐵桿（4-6號）、短鐵桿（7-9號）、特殊桿（S、W、P）等之分。
+
+在果嶺上專用的球桿稱之為推桿（PUTTER）。
+
+由桿身的彈性（FLEX）來看球桿，可初略分為五個等級</p>  
+  </div>
+  <div class="ui-grid-b">
+     <div class="ui-block-a" style="border: 1px solid black;color:green"><span>代表符號</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;color:chocolate"><span>硬度</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;color:chocolate"><span>特性</span></div>
+     <div class="ui-block-a" style="border: 1px solid black;color:blueviolet"><span>X</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;"><span>特硬</span></div>
+	 <div class="ui-block-c" style="border: 1px solid black;"><span>強打的職業選手</span></div> 
+     <div class="ui-block-a" style="border: 1px solid black;color:blueviolet"><span>S或F</span></div>
+	 <div class="ui-block-b" style="border: 1px solid black;"><span>硬</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;"><span>強打者</span></div> 
+	 <div class="ui-block-a" style="border: 1px solid black;color:blueviolet"><span>R或T</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;"><span>普通</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;"><span>一般男性</span></div>
+     <div class="ui-block-a" style="border: 1px solid black;color:blueviolet"><span>A</span></div>
+     <div class="ui-block-b" style="border: 1px solid black;"><span>軟</span></div>
+	 <div class="ui-block-c" style="border: 1px solid black;"><span>力道較弱男性及強打女性</span></div> 
+     <div class="ui-block-a" style="border: 1px solid black;color:blueviolet"><span>Ｌ</span></div>
+	 <div class="ui-block-b" style="border: 1px solid black;"><span>特軟</span></div>
+     <div class="ui-block-c" style="border: 1px solid black;"><span>高齡或一般女性</span></div> 
+	</div>
+  <div data-role="controlgroup" data-type="vertical">
+    <a href="#woods" data-role="button" style="color:deeppink">木桿</a>
+    <a href="#irons" data-role="button" style="color:deeppink">鐵桿</a>
+    <a href="#wedges" data-role="button" style="color:deeppink">切桿</a>
+	<a href="#putters" data-role="button" style="color:deeppink">推桿</a>  
+  </div>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+
+
+
+
+<div data-role="page" id="woods">
+  <div data-role="header">
+	<a href="#homepage" data-role="button" class="ui-btn-left" data-icon="home" data-iconpos="notext"></a>  
+    <h1>木桿</h1>
+	<a href="#driver" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>  
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/woods.jpg" width="250" height="" alt=""/> </div>	  
+	  <p>“木桿”這個名詞仍是延續百年前『wood wood』（木頭木桿）的形容詞，在現今流行的木桿裡早已看不見木頭木桿的存在，在80年底～90年初某些知名高爾夫球廠商嘗試用夠輕夠硬的碳纖維(Graphite)作為木桿材料，如Yonex（YY）就為當年獨領風騷的熱門產品；但是由於碳纖維不耐久，不久後便被Callaway的鐵頭放大型木桿所取代。而隨著90年中美國開放航太科技相關技術，被廣泛使用於太空梭上的鈦合金，馬上就被高爾夫球大廠選為年度風雲材料，各大名廠研發小組推出各式各樣鈦合金木桿，從1995年的Callaway GBB、Taylor Made Ti-Bubble 250cc放大型木桿到97年290cc甚至300cc超大型木桿頭；此種桿頭因頭大所以擊球面積大，相對較容易擊到球，但其缺點為擊球重心不夠低＆桿身太長難以控制，所以現今300cc的設計已逐漸被淘汰。
+當服裝界吹起復古風的同時，高爾夫球界在2000年也吹起了一陣復古風；各大廠牌最新一季的球桿，球頭大小縮減至240cc～250cc，甚至有220cc~230cc桿頭的出現，220cc～230cc所推Orlimar Tri-Metal與Cleveland Quad pro木桿在美國市場異軍突起，於1999年～2000年大賣，此兩大名牌首開多合金合成桿頭風氣，皆使用麻鋼（Maraging Sterl）來做打擊面，此一金屬Orlimar公司表示比鈦合金硬60﹪以上，詳情請看Orlimar與Cleveland產品簡介，而Callaway、Taylor Made與其他大廠，都很一致的縮小桿頭面積，並在桿頭底加了鎢，由此展開了球頭多合金的新紀元。 木桿的桿頭最早是用木頭製成的，因此稱之為木桿，目前已經很稀少。現金木桿桿頭已多為金屬製成，稱為金屬木桿;以不鏽鋼與鈦金屬材質為大宗。<br>木桿可分為1、2、3、4、5、6、7、8、9號，但市面上以1、3、4、5、7號較常見。</p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="driver">
+  <div data-role="header">
+	<a href="#woods" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>開球木桿</h1>
+	<a href="#3wood" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>   
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/driver.jpg" width="300" height="" alt=""/> </div>	  
+    <p>1號木桿，英文driver，為最長桿子，通常用於擊遠距離開球用。桿頭角最小，擊球有力，稱為開球桿，通常也是所有桿子裡最貴的一支，一般在4桿洞場地和5桿洞開球使用。</p>  
+  </div>
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>	
+</div> 	
+
+<div data-role="page" id="3wood">
+  <div data-role="header">
+	<a href="#driver" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>3號木桿</h1>
+	<a href="#5wood" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>    
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/3wood.jpg" width="250" height="" alt=""/> </div>	  
+    <p>球道木基本上是緊接一號木的桿子但主要的使用在於球道上的長距離發揮.多數人也會在開球台上使用.但不管你是在球道上或開球台使用,基本都是使用三木的機會大過於4木或5木.以前大家可以很輕鬆看到一些打得不錯球員或朋友在球包中會放5木.但現在自從有鐵木桿/混血桿後基本5木的使用機會就被取代.一般來說球道木的長度會比鐵木桿要長.所以使用上當然鐵木桿會得到比較多使用者的親賴.這也是為什麼這桿子能如此火紅也是大家在球包裡都會使用的桿子.</p>  
+  </div>	
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div>
+
+<div data-role="page" id="5wood">
+  <div data-role="header">
+	<a href="#3wood" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>5號木桿</h1>
+	<a href="#hybrid" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>    
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/5wood.jpg" width="250" height="" alt=""/> </div>	  
+    <p>唯有能夠安然攻上果嶺，方可在球道上使用3號木桿。每當看到距離果嶺甚遠就祭出3號木桿，是業餘球友最常犯的策略錯誤。這並非明智之舉。3號木桿是球道上最難打的球桿，所以只是為了將球擊遠實在沒道理。你應該改用5號木桿。5號木桿桿面角較大，所以較容易擊球升空。而且除非你的揮桿真的很夠力，否則5號木桿的擊球距離其實和3號木桿一樣遠，至少足以前進到下一桿攻上果嶺的位置。</p>  
+  </div>	
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div>
+  
+<div data-role="page" id="hybrid">
+  <div data-role="header">
+	<a href="#5wood" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>混血桿</h1>    
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/hybrids.jpg" width="300" height="" alt=""/> </div>	  
+	  <p>剛剛講5號木桿時，就有提到混血桿，hybrid club就是混血桿，又稱鐵木桿，因為他介於木桿和鐵桿之間，而外型又像一隻雞腿，所以俗稱「小雞腿」。<br>在過去的幾年內，『混合桿』（Hybrid）逐漸受到市場的歡迎。混血桿是一個『新穎＋混血』的球桿設計，它不但跳脫傳統的球頭設計概念並結合長鐵桿(Long iron)與球道木桿(Fairway Wood)的優點，創造出自己獨特的『定位』。混血桿的銷售量近年逐漸攀升，各大廠牌開始大力推出各自的混合桿造型，，不管是是叫Hybrid、Utility或Taylor MadeTM 的Rescue系列，都可以感受混合桿的趨勢。
+通常來說，混血桿所取代的球桿通常是介於大號頭的球道木桿（如5w, 7w, 9w）與長鐵桿（2I~4I）之間。混合桿特殊設計，包括計重（weighting）已達到低、深重心、底部設計（sole design）針對不佳球位、桿面結構設計讓擊球效果超越長鐵桿等設計，都讓混合桿更容易上手、更能因應各種不同球位及更能發揮其功效。
+根據2005年Darrell Survey Company的調查，美國約有19%的消費者使用混血桿，比前一年的7.5%有顯著的成長。在男子PGA職業巡迴賽裡也有超過50%的選手球袋裡有一支以上的混血桿；女子LPGA的選手比例更是高於50%。由此可見，混合桿的功用（function），不管對於職業選手（Professional）或一般球友的球技都有很大幫助。
+在購買混血球的時候，如何選到符合自己需求的混血桿是非常重要，特別是當市場上有這麼多種類型與規格(Spec)中，如何做出正確的選擇更顯困難。在購買混血桿的第一件事就是瞭解自己需求，像是什麼距離比較不擅長（如180~200碼）或是需要取代球桿（如七號木桿或三號鐵）是哪支；第二，選擇自己喜歡及順手的造型，混血桿球頭造型一般分為鐵桿型（Iron-Shaped）及球道木桿型（Wood-Shaped），從設計的角度還說前者的彈道（trajectory）較低、但較具穿透力並且做球(workability)空間較大，後者則是彈道高、容忍誤差（tolerance）較大；第三，就是考慮球頭設計，混合桿都會強調底部造型、FACE面積，OFFSET多寡、桿身長度與揮桿重量（swing weight）等，這些也都會影響到擊球效果，選擇時必須要考慮與原本球桿的匹配(match)，像是長度以揮桿重量(swing weight)等；更細微選擇還包括不同球路的選擇，像是球路以及彈道高低等，像是CallawayTM延續DRIVER的設計，讓球友可因個人技術與喜愛球路做選擇，例如左曲（Draw-Biased）與右曲（Fade-Biased）球設計，建議技術較好的球友使用後者；Taylor MadeTM則把可調式計重（Adjustable WeightingTM）技術運用在混合桿上，讓球友可針對所需球路自行調整。</p>  
+	</div>
+  <a href="#club" data-role="button" data-inline="true" data-icon="back" data-iconpos="left">back to clubs' page</a>
+  <a href="#homepage" data-role="button" data-inline="true" data-icon="home" data-iconpos="left" data-mini="true">back to home</a>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div>
+
+
+
+
+
+<div data-role="page" id="irons">
+  <div data-role="header">
+	<a href="#homepage" data-role="button" class="ui-btn-left" data-icon="home" data-iconpos="notext"></a>   
+    <h1>鐵桿</h1>
+	<a href="#longiron" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>    
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/irons.jpg" width="300" height="" alt=""/> </div>	  
+	  <p>在此聲明，我把鐵桿與切桿分開歸類（此處鐵桿是指長鐵、中鐵、短鐵）<br>
+		”鐵桿”這個名詞仍是延續百年前對於鐵桿的形容詞，現今鐵桿材質大部分仍沿用鐵或不銹鋼（Stainless Steel），而17-5合成仍為最多名牌使用的合成度，現今台灣鐵桿組包含了＃3、4、5、6、7、8、9＋PW（＃10）＋SW，然而國外一套鐵桿只有8支，從＃3- PW、SW被列為挖起桿類，鐵桿桿頭分為兩種製造方式：1、Forged為鍛造，以軟鐵15-5鋼成分重擊成型。2、Cast為鑄造，以熔鐵住造成型。大多數好手較偏好Forged，鍛造材質，是由於其揮桿速度快、打重甜蜜點機率高，且因鍛造是用軟鐵為材質。但其缺點為鍛造成本高、鍛造頭的密度與重量較難掌握，且其Lie Angle會改變。鑄造的鐵桿桿頭較硬，穩定性較高，適合初級、中級球友。</p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+
+
+
+<div data-role="page" id="longiron">
+  <div data-role="header">
+	<a href="#irons" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>長鐵桿</h1>
+	<a href="#middleiron" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>  
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/longi.jpg" width="250" height="" alt=""/> </div>	  
+	  <p>1、2、3、(4)稱之為長鐵桿，1號鐵桿幾乎沒有人在用，而2、3、(4)號幾乎都是職業選手才會使用。<br>
+		長杆的使用難度較大，或者可以說是最難用的球桿。<br>
+
+		1、因為它既要求保證飛行距離，還要求保證準確性。<br>
+		2、使用長鐵桿的一個誤區就想用力將球打得遠，這樣的結果往往會造成球打偏，打得越遠反而越糟糕。<br>
+		3、使用長鐵桿的要訣是用力適中，保持揮桿節奏流暢。力爭球和杆面的聯繫保持穩定。<br>
+		4、你不必太猛烈地揮桿，以圖讓球飛得更遠。因為如果球被平直的杆面以正確的方法擊中，其實長球桿的設計已經將照顧到了擊球的距離。所以更猛烈的揮桿只會造成你擊球的不穩定。<br>
+		</p>  
+  </div>
+  
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="middleiron">
+  <div data-role="header">
+	<a href="#longiron" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>中鐵桿</h1>
+	<a href="#shortiron" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>   
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/midi.jpg" width="300" height="" alt=""/> </div>	  
+    <p>一般指(4)、5、6號桿，主要用于120 至170码距离的击球，随着球杆的缩短，站位的宽度也逐渐变窄，首先在使用中铁杆时，没有必要为求得距离而牺牲准确度，不需做过大幅度的上挥杆，一般以挥杆顶点时杆头指向1点钟的位置为好。挥杆节奏清晰流畅，用力仅用全力的80%就足够了，如果拼尽全务以很快的速度挥杆击球，就有可能扰乱挥杆轨迹，改变杆面的方向，造成失误球。</p>  
+  </div>
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+
+<div data-role="page" id="shortiron">
+  <div data-role="header">
+	<a href="#middleiron" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>短鐵桿</h1>   
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/shorti.jpeg" width="250" height="" alt=""/> </div>	  
+	  <p>通常為7、8、9號桿，一般初學者由短桿學起，短桿桿頭較重，較易精準掌握擊球方向，並且桿面角度大，擊球並不會像長鐵一樣，距離被速度吃掉。<br>利用胸部控制揮桿速度有助於改善短鐵桿揮桿節奏。上桿和下桿過程中保持胸部和上半身同步運作，不可有任何一方速度較快。你會發現胸部在輕柔的球路移動較慢，強勁的球路移動較快，於是你必須隨之調整手臂揮動速度。<br>每次你用7號、8號或9號鐵桿上果嶺，都有機會將球送到洞旁。如果因為錯誤的擊球動作平白浪費這個機會，未免太過可惜。你必須向下擊球，對小白球施以擠壓了力量，方能打出理想的距離、碼數、方向和旋轉率，落地後很快咬住果嶺。下面就是短鐵桿正確擊球四步驟。</p>  
+</div>	<br>
+  <a href="#club" data-role="button" data-inline="true" data-icon="back" data-iconpos="left">back to clubs' page</a>
+  <a href="#homepage" data-role="button" data-inline="true" data-icon="home" data-iconpos="left" data-mini="true">back to home</a>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div>
+
+
+
+
+
+<div data-role="page" id="wedges">
+  <div data-role="header">
+	<a href="#homepage" data-role="button" class="ui-btn-left" data-icon="home" data-iconpos="notext"></a>  
+    <h1>切桿</h1>
+	<a href="#pw" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>    
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/wedges.png" width="300" height="" alt=""/> </div>	  
+    <p>Wedge，切桿，又稱挖起桿，也叫特殊桿，有人把切桿歸類在鐵桿裡面，但在此我把它獨立出來。<br>
+	  一般最常見為P桿與S桿，以下頁數將為您介紹。<br>
+	  挖起桿是您球袋中不可缺少的球桿，它的功能就像救命丹，可以幫您完成許多〝不可能的任務〞不論是小白球陷入果嶺邊的沙坑或是卡在深厚的草區中，挖起桿必定是您的最佳選擇。此外當球處於果嶺邊緣時，挖起桿也可以發揮起撲及拉高的作用將球輕穩地落在果嶺上。<br>
+		切桿通常分為：PW(PITCHING WEDGE)、AW/GW/FW(APPROACH WEDGE)、SW(SAND WEDGE)、LW(LOB WEDGE)桿<br>
+		因為各廠桿子所做的角度皆不同，譬如說Ａ廠的PW桿為48度，B廠PW桿為50度，所以有些廠商會直接以角度標示，沒有所謂的P、A、S、L桿。
+    </p>  
+  </div>
+  
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+	
+	
+	
+<div data-role="page" id="pw">
+  <div data-role="header">
+	<a href="#wedges" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>劈起挖起桿</h1>
+	<a href="#aw" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>   
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/pw.jpg" width="300" height="" alt=""/> </div>	  
+    <p>P桿，或劈起挖起桿，英文：PITCHING WEDGE，為果嶺四周的近距擊球用，使用P桿擊的球叫「P(劈)起球」。一般桿面角度在44-52之間，擊球距離大概在110碼內。</p>  
+  </div>
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 		
+	
+<div data-role="page" id="aw">
+  <div data-role="header">
+	<a href="#pw" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>中繼挖起桿</h1>
+	<a href="#sw" data-role="button" class="ui-btn-right" data-icon="arrow-r">下一頁</a>   
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/aw.jpg" width="300" height="" alt=""/> </div>	  
+    <p>A桿，或中继挖起桿，英文：APPROACH WEDGE，又有廠稱為GW桿或FW桿，一樣為果嶺四周的近距擊球用。一般桿面角度在50度上下，擊球距離大概在100碼以內。</p>  
+  </div>
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 			
+	
+<div data-role="page" id="sw">
+  <div data-role="header">
+	<a href="#aw" data-role="button" class="ui-btn-left" data-icon="arrow-l">上一頁</a>  
+    <h1>沙坑挖起桿</h1>  
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="a" align="middle">
+    <img src="image/sw.jpg" width="300" height="" alt=""/> </div>	  
+    <p>S桿，或沙坑挖起桿，英文：SAND WEDGE，大多為沙坑用，因為桿面角度大，擊球後飛行弧度高，近距離停球上果嶺亦可用。一般桿面角度在54到58度，擊球距離大概在90碼以內。</p>  
+  </div>
+  <a href="#club" data-role="button" data-inline="true" data-icon="back" data-iconpos="left">back to clubs' page</a>
+  <a href="#homepage" data-role="button" data-inline="true" data-icon="home" data-iconpos="left" data-mini="true">back to home</a>	
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+
+<div data-role="page" id="putters">
+  <div data-role="header">
+	<a href="#homepage" data-role="button" class="ui-btn-left" data-icon="home" data-iconpos="notext"></a> 
+    <h1>推桿</h1>
+  </div>
+
+  <div data-role="content">
+	<div data-role="header" data-theme="e" align="middle">
+    <img src="image/putters.jpg" width="300" height="" alt=""/> </div>	  
+    <p>一般在球攻上果嶺後，推桿將是把球送入球洞的唯一武器。推桿一直被公認為是最重要的球桿，因為除非是一桿進洞或起撲（Chip）進洞，否則在球場上的每一洞都需要用到推桿。一般來說即使無法一開始就開出300碼的球，但是只要有好的推桿技巧，也是可以有很好的成績。基本上推桿是沒有專利權的限制，因此市面上販售的各廠牌推桿款式都很相像，一般市面上販售的款式主要有四種：</p>  
+	<ul data-role="listview" data-inset="true">
+      <li>
+        <a href="#dp" data-rel="dialog">
+        <img src="/image/dp.jpg" width="50" height="50" alt=""/>
+        <h2>D型推桿</h2>
+        <p>桿頭底部較厚</p>
+        </a>
+      </li>
+      <li>
+        <a href="#pinp" data-rel="dialog">
+        <img src="/image/pinp.jpg" width="50" height="50" alt=""/>
+        <h2>PIN型推桿</h2>
+        <p>桿頭背面有凹溝，接於桿頸上</p>
+        </a>
+      </li>
+	  <li>
+        <a href="#tp" data-rel="dialog">
+        <img src="/image/tp.png" width="50" height="50" alt=""/>
+        <h2>T型推桿</h2>
+        <p>桿身附著於桿頭中央</p>
+        </a>
+      </li>
+	  <li>
+        <a href="#lp" data-rel="dialog">
+        <img src="/image/lp.jpg" width="50" height="50" alt=""/>
+        <h2>L型推桿</h2>
+        <p>桿身連接於桿頭根部</p>
+        </a>
+      </li>	
+    </ul>  
+  </div>
+  <a href="#club" data-role="button" data-inline="true" data-icon="back" data-iconpos="left">back to clubs' page</a>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div>
+
+	
+<div data-role="page" id="dp">
+  <div data-role="header">
+    <h1>D型</h1>
+  </div>
+
+  <div data-role="content">
+    <p>現今大部分名牌D型球桿均有桿面平衡設計，增加推桿時的平穩度，由於重量較重，較容易做出鐘擺動作，現今Ｄ型為熱門產品。</p>
+    <a href="#putters">back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+<div data-role="page" id="pinp">
+  <div data-role="header">
+    <h1>PIN型</h1>
+  </div>
+
+  <div data-role="content">
+    <p>擊球區較寬，所以稍微偏離中心點擊球，其球路也不會過於偏離。</p>
+    <a href="#putters">back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+	
+<div data-role="page" id="tp">
+  <div data-role="header">
+    <h1>T型</h1>
+  </div>
+
+  <div data-role="content">
+    <p>容易在中心點擊球。容易瞄球。</p>
+    <a href="#putters">back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 
+	
+<div data-role="page" id="lp">
+  <div data-role="header">
+    <h1>L型</h1>
+  </div>
+
+  <div data-role="content">
+    <p>擊球時易偏離中心點是其缺點。傳統形，觸管很好但不易掌控。</p>
+    <a href="#putters">back</a>
+  </div>
+
+  <div data-role="footer">
+  <h1>che's golf web</h1>
+  </div>
+</div> 	
+	
+	
+	
+</body>
+</html>
